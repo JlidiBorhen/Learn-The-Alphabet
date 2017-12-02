@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="baseDarkBlue" type="color">#00BBEF</item>
+    <item name="baseLightBlue" type="color">#00E3EF</item>
+    <item name="baseDarkRed" type="color">#F12F13</item>
+    <item name="baseLightRed" type="color">#E6503A</item>
+    <item name="baseLightGrey" type="color">#494C4C</item>
+    <item name="baseDarkGrey" type="color">#303134</item>
+    <item name="baseDarkOrange" type="color">#FF9700</item>
+    <item name="baseLightOrange" type="color">#FF9729</item>
+    <item name="white" type="color">#ffffff</item>
+
+    
+
+    <integer-array name="androidcolors">
+        <item>@color/baseDarkBlue</item>
+        <item>@color/baseLightBlue</item>
+        <item>@color/baseLightRed</item>
+        <item>@color/baseDarkGrey</item>
+        <item>@color/baseDarkRed</item>
+        <item>@color/baseLightGrey</item>
+        <item>@color/baseLightOrange</item>
+         <item>@color/baseDarkOrange</item>
+        <item>@color/white</item>
+    </integer-array>
+
+</resources>

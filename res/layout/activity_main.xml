@@ -1,0 +1,54 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+            android:background="#ffffff"
+    android:gravity="bottom"
+    tools:context="com.example.app.FullscreenActivity" >
+
+    <!-- This is the view on which we will draw. -->
+
+    <view
+        android:id="@+id/DrawSpace"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|top"
+        class="com.bor3i.schreiber.MainDrawingView"
+        android:background="@layout/notepad" />
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:background="@layout/backbg"
+        
+        
+       >
+           <Button
+        android:id="@+id/button1"
+        style="@style/buttonStyleBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="save"
+        android:text="@string/save"
+        android:textColor="#FFFFFF"
+         />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/buttonStyleBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="reset"
+        android:text="@string/reset"
+        android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+
+
+</FrameLayout>
